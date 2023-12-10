@@ -1,0 +1,40 @@
+Linear regression is a statistical method used for modeling the relationship between a dependent
+variable and one or more independent variables. The basic idea is to find the linear relationship
+that best describes the data. In a simple linear regression, there is only one independent variable,
+while in multiple linear regression, there are multiple independent variables.
+
+Dependent Variable (Y): This is the variable we want to predict or explain.
+                        It is also known as the response variable.
+
+Independent Variable(s) (X): These are the variables used to predict the dependent variable.
+                             In simple linear regression, there's only one independent variable;
+                             in multiple linear regression, there are two or more.
+
+Linear Relationship: Linear regression assumes that the relationship between the independent variable(s)
+                     and the dependent variable is linear. This means that changes in the dependent variable
+                     are proportional to changes in the independent variable(s).
+
+Equation of a Straight Line: The equation for a straight line in a simple linear regression is
+                             represented as:
+                                                Y = theta[0] + theta[1] * X
+
+Least Squares Method: The most common approach to finding the best-fitting line is the least squares
+                      method. It minimizes the sum of the squared differences between the observed and
+                      predicted values of the dependent variable.
+
+Coefficient of Determination (R square): This statistic measures the proportion of the variance in the dependent
+                                         variable that is predictable from the independent variable(s).
+                                         It ranges from 0 to 1, where 1 indicates a perfect fit.
+
+
+Assumptions of Linear Regression:
+                                    Linearity: The relationship between the variables is linear.
+
+                                    Independence: The residuals (the differences between observed and
+                                    predicted values) are independent of each other.
+
+                                    Homoscedasticity: The variability of the residuals is constant across
+                                    all levels of the independent variable(s).
+
+                                    Normality: The residuals are approximately normally distributed.
+
